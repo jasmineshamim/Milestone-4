@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 230, 233);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 0 0 15px purple;
+    font-size: 2rem;
+}
+
+form {
+    background: #D390E5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px purple;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 5px solid purple;
+}
+
+fieldset {
+    border: 1px solid purple;
+    background-color: #EAD0F1;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    padding: 0 10px;
+    font-size: 1.5rem;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+}
+
+textarea,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #7b2cbf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px purple;
+}
+
+button {
+    color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 3px solid purple;
+    margin: 10px auto;
+    display: block;
+}
+
+button:hover {
+    box-shadow: 0 0 15px purple;
+    background-color: purple;
+    color: white;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 0.7ch solid purple;
+    border-radius: 7px;
+    background-color: #D390E5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    legend {
+        font-size: 1.2rem;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    textarea,
+    input {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        margin: 5px auto;
+    }
+
+    #resume-display {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    legend {
+        font-size: 1rem;
+    }
+
+    label {
+        font-size: 0.8rem;
+    }
+
+    textarea,
+    input {
+        font-size: 0.8rem;
+    }
+
+    button {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+
+    #resume-display {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
